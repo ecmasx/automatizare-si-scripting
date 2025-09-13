@@ -1,30 +1,13 @@
-# automatizare-si-scripting
+# Automatizare si Scripting
 
-Acest repository contine script-uri de automatizare si scripting pentru macOS scrise in Bash.
+Acest repository contine scripturi de automatizare si scripting scrise in Bash.
 
-## Scripts
+## Structura Repository-ului
 
-### cleanup.sh
+Repository-ul este organizat in foldere pentru diferite teme sau exercitii:
 
-Elimina fisiere temporare dintr-un director specificat.
+### IW01
 
-**Usage:**
+Scripturi pentru exercitiul IW01 - include script pentru curatarea fisierelor temporare.
 
-```bash
-./cleanup.sh <directory> [extensions...]
-```
-
-**Arguments:**
-
-- `directory` - Necesar. Calea catre directorul care trebuie curatat
-- `extensions` - Optional. Extensiile de fisiere care trebuie eliminate (implicit: .tmp)
-
-**Examples:**
-
-```bash
-./cleanup.sh /tmp
-./cleanup.sh /var/log .log .bak
-./cleanup.sh ~/Downloads tmp log
-```
-
-Scriptul valideaza existenta directorului si raporteaza numarul de fisiere eliminate.
+**Vezi:** [IW01/README.md](IW01/README.md)
